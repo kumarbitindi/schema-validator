@@ -1,0 +1,19 @@
+{
+    "name": "@block-wallet/schema-validator",
+    "version": "1.0.0",
+    "description": "EIP-712 message schema validator",
+    "main": "dist/schemaValidator.js",
+    "repository": "https://github.com/Block-Wallet/schema-validator.git",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/node": "^20.4.9",
+        "ajv": "^8.12.0",
+        "typescript": "^5.1.6"
+    },
+    "scripts": {
+        "generate": "make build"
+    },
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com"
+    }
+}
